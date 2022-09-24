@@ -34,10 +34,7 @@ export const Skills = () => {
                                 Ipsum has been the industry's standard dummy text.</p>
                             <Carousel responsive={responsive} infinite={true}
                                       className="owl-carousel owl-theme skill-slider">
-                                <div className="item">
 
-                                    <h5>Web Development</h5>
-                                </div>
                                 <div className="item">
 
                                     <h5>JavaScript</h5>
