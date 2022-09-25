@@ -24,32 +24,54 @@ export const Skills = () => {
     };
 
     return (
-        <section className="skill" id="skills">
+        <section className="skill">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Skills</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem
-                                Ipsum has been the industry's standard dummy text.</p>
+                            <p>There are my skills.</p>
                             <Carousel responsive={responsive} infinite={true}
                                       className="owl-carousel owl-theme skill-slider">
 
                                 <div className="item">
+                                    <h5>
+                                        <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png"
+                                             alt="html"/>
+                                    </h5>
+                                </div>
 
-                                    <h5>JavaScript</h5>
+                                <div className="item-css">
+                                    <h5>
+                                        <img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                                            alt="css"/>
+                                    </h5>
+                                </div>
+
+                                <div className="item">
+                                    <h5>
+                                        <img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                                            alt="js"/>
+                                    </h5>
                                 </div>
                                 <div className="item">
-
-                                    <h5>React</h5>
+                                    <h5>
+                                        <img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                                            alt="react"/>
+                                    </h5>
                                 </div>
                                 <div className="item">
-
-                                    <h5>GitHub</h5>
+                                    <h5>
+                                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github"/>
+                                    </h5>
                                 </div>
                                 <div className="item">
-
-                                    <h5>TypeScript</h5>
+                                    <h5>
+                                        <img src="https://cdn-icons-png.flaticon.com/512/919/919832.png" alt="ts"/>
+                                    </h5>
                                 </div>
                             </Carousel>
                         </div>
