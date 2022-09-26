@@ -60,6 +60,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 nav.navbar.scrolled {
   padding: 0 0;
@@ -233,6 +234,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: justify;
 }
 
+.position{
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.position:hover{
+  color: rgba(70, 239, 44, 0.76);
+  cursor: default;
+  transition: 0.4s ease-in-out;
+}
+
 .banner-text h1{
   font-size: 50px;
 }
@@ -240,12 +252,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: rgba(70, 239, 44, 0.76);
   cursor: default;
   transition: 0.4s ease-in-out;
-
 }
 
-.banner-text h2{
-  font-size: 30px;
-  margin: 20px 0 20px 0;
+.banner-text p{
+  font-size: 20px;
+  margin: 30px 0 0 0;
 }
 
 .banner-avatar {

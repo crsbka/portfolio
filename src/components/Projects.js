@@ -11,20 +11,20 @@ export const Projects = () => {
         {
             title: "Weather app",
             description: "Built with HTML, CSS, JavaScript and using Bootstrap Framework. " +
-                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the globe with changing weather background that corresponds to the current weather.",
+                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the world with changing weather background that corresponds to the current weather.",
             imgUrl: projImg1,
             url: "https://thirsty-visvesvaraya-1786a0.netlify.app/",
         },
         {
             title: "Weather app",
             description: "Built with HTML, CSS, JavaScript and React. " +
-                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the globe with changing weather background that corresponds to the current weather.",
+                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the world as well as display a five days forecast and weather parameters of the searched cities.",
             imgUrl: projImg2,
             url: "https://epic-raman-ef21cd.netlify.app",
         },
         {
             title: "Dictionary",
-            description: "JavaScript",
+            description: "An online Dictionary App with real live-data featuring a Search engine, API integration, word definitions, images of the definition, and synonyms. Hosted on Netlfiy.",
             imgUrl: projImg3,
             url: "https://vibrant-lamport-662304.netlify.app/",
         },

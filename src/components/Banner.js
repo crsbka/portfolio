@@ -10,10 +10,12 @@ export default function Banner() {
         <Container className="banner">
             <Row>
                 <Col className="banner-text">
+                    <p>Hi, my name is </p>
                     <h1>Kristina Laktiushkina</h1>
-                    <h2>Front End Developer</h2>
                     <p>
-                        I'm an aspiring Front-End Developer based in Canada, taking the first steps in front-end development.
+                        I'm an aspiring
+                        <span className="position"> Junior Front-End Developer</span> based in Canada, with background in
+                        architecture taking the first steps in front-end development.
                     </p>
 
                 </Col>
