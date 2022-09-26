@@ -55,10 +55,9 @@ export default function NavBar() {
                                                                                                         alt="linkedin"/></a>
                                       <a href="https://www.instagram.com/crsbka/?hl=en"><img src={navIcon1}
                                                                                              alt="insta"/></a>
-
                                       </div>
                                       <button className="vvd"
-                                              onClick={() => console.log("connect")}><span>Contact me</span></button>
+                                              onClick={() => window.location = 'mailto:crsbka@bk.ru'}>Contact Me</button>
                                       </span>
 
                 </Navbar.Collapse>

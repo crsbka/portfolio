@@ -1,84 +1,23 @@
-import {useState} from "react";
-import {Container, Row, Col} from "react-bootstrap";
+import React from "react";
+import navIcon3 from "../assets/img/github-logo.svg";
+import navIcon2 from "../assets/img/linkedin-logo.svg";
+import navIcon1 from "../assets/img/instagram-logo.svg";
 
 
-export const Contact = () => {
-    const formInitialDetails = {
-        fullName: '',
-        email: '',
-        message: ''
-    }
-    const [formDetails, setFormDetails] = useState(formInitialDetails);
-    const [buttonText, setButtonText] = useState('Send');
-    const [status, setStatus] = useState({});
-
-    const onFormUpdate = (category, value) => {
-        setFormDetails({
-            ...formDetails,
-            [category]: value
-        })
-    }
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setButtonText("Sending...");
-        let response = await fetch("http://localhost:5000/contact", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json;charset=utf-8",
-            },
-            body: JSON.stringify(formDetails),
-        });
-        setButtonText("Send");
-        let result = await response.json();
-        setFormDetails(formInitialDetails);
-        if (result.code == 200) {
-            setStatus({succes: true, message: 'Message sent successfully'});
-        } else {
-            setStatus({succes: false, message: 'Something went wrong, please try again later.'});
-        }
-    };
+export default function Contact() {
 
     return (
-        <section className="contact">
-            <Container>
-                <Row className="align-items-center">
-                    <Col size={12} md={6}>
+        <div className="contact">
+            <div className="contact-button">
+                <button onClick={() => window.location = 'mailto:crsbka@bk.ru'}>Let`s get in touch!</button>
+            </div>
+            <div className="social-icon">
+                <a href="https://github.com/crsbka"><img src={navIcon3} alt="git"/></a>
+                <a href="https://www.linkedin.com/in/kristina-laktiushkina/"><img src={navIcon2} alt="linkedin"/></a>
+                <a href="https://www.instagram.com/crsbka/?hl=en"><img src={navIcon1} alt="insta"/></a>
+            </div>
+        </div>
 
-                    </Col>
-                    <Col size={12} md={6}>
-
-
-                        <div className="getintouch">
-                            <h2>Get In Touch</h2>
-                            <form onSubmit={handleSubmit}>
-                                <Row>
-                                    <Col size={12} sm={6} className="px-1">
-                                        <input type="text" value={formDetails.fullName} placeholder="Full Name"
-                                               onChange={(e) => onFormUpdate('fullName', e.target.value)}/>
-                                    </Col>
-                                    <Col size={12} sm={6} className="px-1">
-                                        <input type="email" value={formDetails.email} placeholder="Email Address"
-                                               onChange={(e) => onFormUpdate('email', e.target.value)}/>
-                                    </Col>
-                                    <Col size={12} className="px-1">
-                                        <textarea rows="6" value={formDetails.message} placeholder="Message"
-                                                  onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                                        <button type="submit"><span>{buttonText}</span></button>
-                                    </Col>
-                                    {
-                                        status.message &&
-                                        <Col>
-                                            <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                                        </Col>
-                                    }
-                                </Row>
-                            </form>
-                        </div>
-
-                    </Col>
-                </Row>
-            </Container>
-        </section>
     )
+
 }

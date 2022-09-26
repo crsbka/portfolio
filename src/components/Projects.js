@@ -44,9 +44,7 @@ export const Projects = () => {
                     <Col size={12}>
                         <div>
                             <h2>Projects</h2>
-
                             <Row>
-
                                 {
                                     projects.map((project, index) => {
                                         return (
@@ -57,7 +55,6 @@ export const Projects = () => {
                                         )
                                     })
                                 }
-
                             </Row>
                         </div>
                     </Col>
