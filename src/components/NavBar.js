@@ -4,8 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import navIcon1 from "../assets/img/instagram-logo.svg";
 import navIcon2 from "../assets/img/linkedin-logo.svg";
-import navIcon3 from "../assets/img/facebook-logo.svg";
-
+import navIcon3 from "../assets/img/github-logo.svg";
 
 
 export default function NavBar() {
@@ -51,9 +50,12 @@ export default function NavBar() {
 
                     <span className="navbar-text">
                                       <div className="social-icon">
-                                      <a href="#"><img src={navIcon2} alt="linkedin"/></a>
-                                      <a href="#"><img src={navIcon1} alt="insta"/></a>
-                                      <a href="#"><img src={navIcon3} alt="fb"/></a>
+                                      <a href="https://github.com/crsbka"><img src={navIcon3} alt="git"/></a>
+                                      <a href="https://www.linkedin.com/in/kristina-laktiushkina/"><img src={navIcon2}
+                                                                                                        alt="linkedin"/></a>
+                                      <a href="https://www.instagram.com/crsbka/?hl=en"><img src={navIcon1}
+                                                                                             alt="insta"/></a>
+
                                       </div>
                                       <button className="vvd"
                                               onClick={() => console.log("connect")}><span>Contact me</span></button>

@@ -28,9 +28,8 @@ export const Skills = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="skill-bx wow zoomIn">
+                        <div className="skill-bx">
                             <h2>Skills</h2>
-                            <p>There are my skills.</p>
                             <Carousel responsive={responsive} infinite={true}
                                       className="owl-carousel owl-theme skill-slider">
 
@@ -73,6 +72,13 @@ export const Skills = () => {
                                         <img src="https://cdn-icons-png.flaticon.com/512/919/919832.png" alt="ts"/>
                                     </h5>
                                 </div>
+
+                                <div className="item">
+                                    <h5>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="bs"/>
+                                    </h5>
+                                </div>
+
                             </Carousel>
                         </div>
                     </div>

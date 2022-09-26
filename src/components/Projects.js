@@ -10,27 +10,29 @@ export const Projects = () => {
     const projects = [
         {
             title: "Weather app",
-            description: "JavaScript",
+            description: "Built with HTML, CSS, JavaScript and using Bootstrap Framework. " +
+                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the globe with changing weather background that corresponds to the current weather.",
             imgUrl: projImg1,
             url: "https://thirsty-visvesvaraya-1786a0.netlify.app/",
         },
         {
             title: "Weather app",
-            description: "React",
+            description: "Built with HTML, CSS, JavaScript and React. " +
+                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the globe with changing weather background that corresponds to the current weather.",
             imgUrl: projImg2,
-            url: "https://thirsty-visvesvaraya-1786a0.netlify.app/",
+            url: "https://epic-raman-ef21cd.netlify.app",
         },
         {
             title: "Dictionary",
             description: "JavaScript",
             imgUrl: projImg3,
-            url: "https://thirsty-visvesvaraya-1786a0.netlify.app/",
+            url: "https://vibrant-lamport-662304.netlify.app/",
         },
         {
             title: "To-Do List",
             description: "React",
             imgUrl: projImg4,
-            url: "https://thirsty-visvesvaraya-1786a0.netlify.app/",
+            url: "https://visionary-liger-2055a9.netlify.app/",
         },
     ];
 
@@ -42,20 +44,20 @@ export const Projects = () => {
                     <Col size={12}>
                         <div>
                             <h2>Projects</h2>
-                            <p>There are my projects</p>
+
                             <Row>
-                                <Col size={6}>
-                            {
-                                projects.map((project, index) => {
-                                    return (
-                                        <ProjectCard
-                                            key={index}
-                                            {...project}
-                                        />
-                                    )
-                                })
-                            }
-                                </Col>
+
+                                {
+                                    projects.map((project, index) => {
+                                        return (
+                                            <ProjectCard
+                                                key={index}
+                                                {...project}
+                                            />
+                                        )
+                                    })
+                                }
+
                             </Row>
                         </div>
                     </Col>
