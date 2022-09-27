@@ -8,7 +8,7 @@ export default function Footer() {
 
     return (
         <div className="footer">
-            <h6>Created by {name}</h6>
+            <h6>Coded by {name}</h6>
             <p>{year}</p>
         </div>
     )

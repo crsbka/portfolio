@@ -30,14 +30,14 @@ export const Projects = () => {
         },
         {
             title: "To-Do List",
-            description: "React",
+            description: "An online note-taking service. Built with HTML, CSS, JavaScript and React.",
             imgUrl: projImg4,
             url: "https://visionary-liger-2055a9.netlify.app/",
         },
     ];
 
     return (
-        <section className="project">
+        <section  id="projects" className="project">
 
             <Container>
                 <Row>

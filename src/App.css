@@ -226,7 +226,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner ************/
 
 .banner{
-  margin: 150px 50px 0 100px;
+  margin: 200px 50px 0 100px;
   font-weight: 400;
   color: #fff;
   padding: 70px 34px;
@@ -488,12 +488,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer{
   background: rgba(23, 26, 23, 0.93);
   text-align: center;
-  padding: 25px 50px;
+  padding: 12px 0 1px;
 }
-.footer h6{
-margin-bottom: 10px;
-}
-
 
 
 

@@ -7,7 +7,7 @@ import navIcon1 from "../assets/img/instagram-logo.svg";
 export default function Contact() {
 
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <div className="contact-button">
                 <button onClick={() => window.location = 'mailto:crsbka@bk.ru'}>Let`s get in touch!</button>
             </div>

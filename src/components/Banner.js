@@ -7,7 +7,7 @@ import avatar from '../assets/img/user-icon.jpg'
 export default function Banner() {
 
     return (
-        <Container className="banner">
+        <Container id="home" className="banner">
             <Row>
                 <Col className="banner-text">
                     <p>Hi, my name is </p>
