@@ -2,7 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import avatar from '../assets/img/user-icon.jpg'
+import avatar from '../assets/img/user-icon.png'
 
 export default function Banner() {
 
@@ -14,7 +14,7 @@ export default function Banner() {
                     <h1>Kristina Laktiushkina</h1>
                     <p>
                         I'm an aspiring
-                        <span className="position"> Junior Front-End Developer</span> based in Canada, with background in
+                        <span className="position"> Junior Front-End Developer</span> based in Toronto, Canada, with background in
                         architecture taking the first steps in front-end development.
                     </p>
 

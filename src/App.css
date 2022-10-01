@@ -96,7 +96,7 @@ span.navbar-text {
 .social-icon a {
   width: 42px;
   height: 42px;
-  background: rgba(217, 217, 217, 0.1);
+  background: rgba(217, 217, 217, 0.43);
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
@@ -154,8 +154,13 @@ span.navbar-text {
   border-radius: 100px;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: #070707;
 }
+
+.navbar-light .navbar-brand:hover {
+  color: rgb(255 255 255 / 90%);
+}
+
 .navbar-text button:hover::before {
   content: "";
   width: 100%;
@@ -210,6 +215,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .navbar-brand {
   font-family: Centra, serif;
+  color: #ffffff;
 }
 
 .App-logo {
@@ -261,12 +267,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner-avatar {
   border-radius: 50%;
-  border: 7px solid #fff;
-  width: 320px;
-  height: 320px;
+  border: 5px solid rgba(75, 77, 89, 0.66);
+  width: 420px;
+  height: 420px;
   margin-left: 200px;
+  transition: all 150ms ease-in-out;
 }
+.banner-avatar:hover {
+  transform: scale(1.1);
 
+}
 /************ Skills Css ************/
 
 .skill {
@@ -337,13 +347,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
-  margin-bottom: 24px;
-  width: 600px;
   height: 350px;
   background-attachment: unset;
   background-position: center;
   background-size: contain;
   /*background-repeat: no-repeat;*/
+  margin: 0 30px 90px 30px;
 
 }
 .proj-imgbx::before {

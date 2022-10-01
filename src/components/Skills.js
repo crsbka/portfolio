@@ -11,7 +11,7 @@ export const Skills = () => {
         },
         desktop: {
             breakpoint: {max: 3000, min: 1024},
-            items: 3
+            items: 4
         },
         tablet: {
             breakpoint: {max: 1024, min: 464},
@@ -65,11 +65,6 @@ export const Skills = () => {
                                 <div className="item">
                                     <h5>
                                         <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github"/>
-                                    </h5>
-                                </div>
-                                <div className="item">
-                                    <h5>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/919/919832.png" alt="ts"/>
                                     </h5>
                                 </div>
 
