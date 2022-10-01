@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import avatar from '../assets/img/user-icon.png'
+import {FULL_NAME} from "../App";
 
 export default function Banner() {
 
@@ -11,7 +12,7 @@ export default function Banner() {
             <Row>
                 <Col className="banner-text">
                     <p>Hi, my name is </p>
-                    <h1>Kristina Laktiushkina</h1>
+                    <h1>{FULL_NAME}</h1>
                     <p>
                         I'm an aspiring
                         <span className="position"> Junior Front-End Developer</span> based in Toronto, Canada, with background in
