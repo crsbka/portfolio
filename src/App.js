@@ -6,6 +6,7 @@ import {Projects} from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+export const EMAIL_ADDRESS = "kristina.laktiushkina@gmail.com";
 
 function App() {
     return (

@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import navIcon1 from "../assets/img/instagram-logo.svg";
 import navIcon2 from "../assets/img/linkedin-logo.svg";
 import navIcon3 from "../assets/img/github-logo.svg";
+import {EMAIL_ADDRESS} from "../App";
 
 
 export default function NavBar() {
@@ -59,7 +60,7 @@ export default function NavBar() {
                                       </div>
 
                                       <button className="vvd"
-                                              onClick={() => window.location = 'mailto:crsbka@bk.ru'}>Email Me</button>
+                                              onClick={() => window.location = 'mailto:' + EMAIL_ADDRESS}>Email Me</button>
                                       </span>
 
             </Container>
