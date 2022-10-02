@@ -466,7 +466,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0;
     height: 100%;
     position: absolute;
-    top: 0;
+    top: 1;
     left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
