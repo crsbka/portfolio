@@ -1,29 +1,36 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container, Row, Col} from "react-bootstrap";
 import certificate1 from "../assets/img/SheCodesIntroductionToCoding.png";
 import certificate2 from "../assets/img/SheCodesFrontEnd.png";
 import certificate3 from "../assets/img/SheCodesReact.png";
+import Achievement from "./Achievement";
 
 
 export default function Achievements() {
+
+    const certificates = [
+        {
+            certificate: certificate1
+        },
+        {
+            certificate: certificate2
+        },
+        {
+            certificate: certificate3
+        },
+    ];
+
+
     return (
         <section id="achievements" className="achievements">
             <Container>
-
                 <Row>
-                    <Col>
-                        <img className="certificate" src={certificate1} alt="certificate" />
-                    </Col>
-
-                    <Col>
-                        <img className="certificate" src={certificate2} alt="certificate"/>
-                    </Col>
-
-                    <Col>
-                        <img className="certificate" src={certificate3} alt="certificate"/>
-                    </Col>
-
+                    {
+                        certificates.map((it) => {
+                            return (
+                                <Achievement certificate={it.certificate}/>
+                            )
+                        })
+                    }
                 </Row>
             </Container>
         </section>
