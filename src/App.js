@@ -5,6 +5,7 @@ import {Skills} from "./components/Skills"
 import {Projects} from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Achievements from "./components/Achievements";
 
 export const EMAIL_ADDRESS = "kristina.laktiushkina@gmail.com";
 export const GITHUB_URL = "https://github.com/crsbka";
@@ -20,6 +21,7 @@ function App() {
             <Banner/>
             <Skills/>
             <Projects/>
+            <Achievements/>
             <Contact/>
             <Footer />
         </div>
