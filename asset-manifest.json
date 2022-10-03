@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0d9e5c76.css",
+    "main.js": "/portfolio/static/js/main.edf1fa3e.js",
+    "static/js/787.30237536.chunk.js": "/portfolio/static/js/787.30237536.chunk.js",
+    "static/media/user-icon.png": "/portfolio/static/media/user-icon.ea70857c101773c5a4ca.png",
+    "static/media/project-img1.png": "/portfolio/static/media/project-img1.745637a718047fcb4db0.png",
+    "static/media/project-img4.png": "/portfolio/static/media/project-img4.c7f464ab87305d6ade15.png",
+    "static/media/project-img3.png": "/portfolio/static/media/project-img3.51f662fb9970f6ae545a.png",
+    "static/media/SheCodesIntroductionToCoding.png": "/portfolio/static/media/SheCodesIntroductionToCoding.1e77bca0610063e0364f.png",
+    "static/media/SheCodesReact.png": "/portfolio/static/media/SheCodesReact.03e515a7f9885d238c97.png",
+    "static/media/SheCodesFrontEnd.png": "/portfolio/static/media/SheCodesFrontEnd.570fcc1575d574256167.png",
+    "static/media/React-logo.png": "/portfolio/static/media/React-logo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Bootstrap_logo.png": "/portfolio/static/media/Bootstrap_logo.20b9bced2f068835eb4e.png",
+    "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/project-img2.png": "/portfolio/static/media/project-img2.c5386b7bd0d5c2e2a982.png",
+    "static/media/CSS3_logo.png": "/portfolio/static/media/CSS3_logo.4e67641bb68b658d9b2b.png",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/instagram-logo.svg": "/portfolio/static/media/instagram-logo.7fc9f5808e01ba79a676eb8f3db2960c.svg",
+    "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.d09d64fe30b941c2d5dba4695179f496.svg",
+    "static/media/github-logo.svg": "/portfolio/static/media/github-logo.fc0ffe042a9582d2a394e1c609baa9f2.svg",
+    "index.html": "/portfolio/index.html",
+    "main.0d9e5c76.css.map": "/portfolio/static/css/main.0d9e5c76.css.map",
+    "main.edf1fa3e.js.map": "/portfolio/static/js/main.edf1fa3e.js.map",
+    "787.30237536.chunk.js.map": "/portfolio/static/js/787.30237536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d9e5c76.css",
+    "static/js/main.edf1fa3e.js"
+  ]
+}
