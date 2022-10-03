@@ -12,7 +12,7 @@ export const Projects = () => {
         {
             title: "Weather app",
             description: "Built with HTML, CSS, JavaScript and using Bootstrap Framework. " +
-                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the world with changing weather background that corresponds to the current weather. Hosted on Netlfiy.",
+                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the world. Hosted on Netlfiy.",
             imgUrl: projImg1,
             url: "https://thirsty-visvesvaraya-1786a0.netlify.app/",
         },
