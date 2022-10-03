@@ -25,9 +25,9 @@ export default function Achievements() {
             <Container>
                 <Row>
                     {
-                        certificates.map((it) => {
+                        certificates.map((it, index) => {
                             return (
-                                <Achievement certificate={it.certificate}/>
+                                <Achievement key={index} certificate={it.certificate}/>
                             )
                         })
                     }

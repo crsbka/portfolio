@@ -20,7 +20,6 @@ export default function Achievement(props) {
             <Modal className="img-modal" show={show} onHide={handleClose}>
                 <img className="opened-certificate" src={props.certificate} alt="certificate"/>
             </Modal>
-
         </Col>
     );
 }

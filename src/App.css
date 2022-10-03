@@ -323,9 +323,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h2 {
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 50px;
 }
-
+.skill .carousel{
+    margin: 30px 0 ;
+}
 .skill p {
     color: #B8B8B8;
     font-size: 18px;
@@ -341,16 +342,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider .item img {
-    width: 50%;
+
     margin: 0 auto 15px auto;
 }
 
-.item h5 img {
-    max-width: 20%;
-}
-
-.item-css h5 img {
-    max-width: 15%;
+.skill-item-img {
+    max-height: 80px;
+    width: auto;
 }
 
 /************ Projects Css ************/
@@ -466,7 +464,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0;
     height: 100%;
     position: absolute;
-    top: 1;
+    top: 0;
     left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
@@ -494,8 +492,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /**Achievements**/
 .achievements .certificate {
     width: 410px;
-    margin: 200px 0 200px 0;
-    border-radius: 1%;
+    margin: 170px 0 200px 0;
     padding: 30px 0;
 }
 

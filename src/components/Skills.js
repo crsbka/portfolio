@@ -1,11 +1,18 @@
 import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import logo1 from '../assets/img/logo_items/HTML5_logo.png';
+import logo2 from '../assets/img/logo_items/CSS3_logo.png';
+import logo3 from '../assets/img/logo_items/JavaScript-logo.png';
+import logo4 from '../assets/img/logo_items/React-logo.png';
+import logo5 from '../assets/img/logo_items/Bootstrap_logo.png';
+import logo6 from '../assets/img/logo_items/github_logo.png'
+
 
 export const Skills = () => {
+
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: {max: 4000, min: 3000},
             items: 5
         },
@@ -23,60 +30,50 @@ export const Skills = () => {
         }
     };
 
+    const logos = [
+        {
+            img: logo1,
+            alt: "html",
+        },
+        {
+            img: logo2,
+            alt: "css",
+        },
+        {
+            img: logo3,
+            alt: "js",
+        },
+        {
+            img: logo4,
+            alt: "react",
+        },
+        {
+            img: logo5,
+            alt: "bootstrap",
+        },
+        {
+            img: logo6,
+            alt: "github",
+        },
+    ];
+
     return (
         <section id="skills" className="skill">
             <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                        <div className="skill-bx">
-                            <h2>Skills</h2>
-                            <Carousel responsive={responsive} infinite={true}
-                                      className="owl-carousel owl-theme skill-slider">
-
-                                <div className="item">
-                                    <h5>
-                                        <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png"
-                                             alt="html"/>
-                                    </h5>
-                                </div>
-
-                                <div className="item-css">
-                                    <h5>
-                                        <img
-                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-                                            alt="css"/>
-                                    </h5>
-                                </div>
-
-                                <div className="item">
-                                    <h5>
-                                        <img
-                                            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-                                            alt="js"/>
-                                    </h5>
-                                </div>
-                                <div className="item">
-                                    <h5>
-                                        <img
-                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-                                            alt="react"/>
-                                    </h5>
-                                </div>
-                                <div className="item">
-                                    <h5>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github"/>
-                                    </h5>
-                                </div>
-
-                                <div className="item">
-                                    <h5>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="bs"/>
-                                    </h5>
-                                </div>
-
-                            </Carousel>
-                        </div>
-                    </div>
+                <div className="skill-bx">
+                    <h2>Skills</h2>
+                    <Carousel className="carousel" responsive={responsive} infinite={true}>
+                        {
+                            logos.map((logo, index) => {
+                                return (
+                                    <div className="item" key={index}>
+                                        <img className="skill-item-img" src={logo.img}
+                                             alt={logo.alt}/>
+                                    </div>
+                                )
+                            })
+                        }
+                    </Carousel>
                 </div>
             </div>
 
