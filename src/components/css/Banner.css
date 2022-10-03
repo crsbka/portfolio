@@ -1,0 +1,48 @@
+
+.banner {
+    margin: 200px 50px 0 100px;
+    font-weight: 400;
+    color: #fff;
+    padding: 70px 34px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.position {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.position:hover {
+    color: rgba(70, 239, 44, 0.76);
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+}
+
+.banner-text h1:hover {
+    color: rgba(70, 239, 44, 0.76);
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+.banner-text p {
+    font-size: 20px;
+    margin: 30px 0 0 0;
+}
+
+.banner-avatar {
+    border-radius: 50%;
+    border: 5px solid rgba(75, 77, 89, 0.66);
+    width: 420px;
+    height: 420px;
+    margin-left: 200px;
+    transition: all 150ms ease-in-out;
+}
+
+.banner-avatar:hover {
+    transform: scale(1.1);
+}

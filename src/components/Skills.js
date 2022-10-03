@@ -1,4 +1,5 @@
 import React from "react";
+import {Container} from "react-bootstrap";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import logo1 from '../assets/img/logo_items/HTML5_logo.png';
@@ -7,6 +8,7 @@ import logo3 from '../assets/img/logo_items/JavaScript-logo.png';
 import logo4 from '../assets/img/logo_items/React-logo.png';
 import logo5 from '../assets/img/logo_items/Bootstrap_logo.png';
 import logo6 from '../assets/img/logo_items/github_logo.png'
+import '../components/css/Skills.css';
 
 
 export const Skills = () => {
@@ -59,8 +61,7 @@ export const Skills = () => {
 
     return (
         <section id="skills" className="skill">
-            <div className="container">
-                <div className="skill-bx">
+            <Container className="skill-bx">
                     <h2>Skills</h2>
                     <Carousel className="carousel" responsive={responsive} infinite={true}>
                         {
@@ -74,9 +75,7 @@ export const Skills = () => {
                             })
                         }
                     </Carousel>
-                </div>
-            </div>
-
+            </Container>
         </section>
     )
 }

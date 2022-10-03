@@ -1,4 +1,4 @@
-import {Container, Row, Col} from "react-bootstrap";
+import {Container, Row} from "react-bootstrap";
 import certificate1 from "../assets/img/SheCodesIntroductionToCoding.png";
 import certificate2 from "../assets/img/SheCodesFrontEnd.png";
 import certificate3 from "../assets/img/SheCodesReact.png";

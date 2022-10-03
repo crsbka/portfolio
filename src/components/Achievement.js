@@ -1,5 +1,7 @@
 import {Col, Modal} from "react-bootstrap";
 import {useState} from "react";
+import '../components/css/Achievements.css';
+
 
 export default function Achievement(props) {
 

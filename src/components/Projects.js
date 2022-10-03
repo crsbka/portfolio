@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
+import '../components/css/Projects.css';
 
 export const Projects = () => {
 
@@ -11,14 +12,14 @@ export const Projects = () => {
         {
             title: "Weather app",
             description: "Built with HTML, CSS, JavaScript and using Bootstrap Framework. " +
-                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the world with changing weather background that corresponds to the current weather.",
+                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the world with changing weather background that corresponds to the current weather. Hosted on Netlfiy.",
             imgUrl: projImg1,
             url: "https://thirsty-visvesvaraya-1786a0.netlify.app/",
         },
         {
             title: "Weather app",
             description: "Built with HTML, CSS, JavaScript and React. " +
-                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the world as well as display a five days forecast and weather parameters of the searched cities.",
+                "Accessing the weather API (OpenWeatherMap) shows the most current weather data anywhere in the world as well as display a five days forecast and weather parameters of the searched cities. Hosted on Netlfiy.",
             imgUrl: projImg2,
             url: "https://epic-raman-ef21cd.netlify.app",
         },
@@ -30,7 +31,7 @@ export const Projects = () => {
         },
         {
             title: "To-Do List",
-            description: "An online note-taking service. Built with HTML, CSS, JavaScript and React.",
+            description: "An online note-taking service. Built with HTML, CSS, JavaScript and React. Hosted on Netlfiy.",
             imgUrl: projImg4,
             url: "https://visionary-liger-2055a9.netlify.app/",
         },

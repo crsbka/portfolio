@@ -3,6 +3,8 @@ import navIcon3 from "../assets/img/github-logo.svg";
 import navIcon2 from "../assets/img/linkedin-logo.svg";
 import navIcon1 from "../assets/img/instagram-logo.svg";
 import {EMAIL_ADDRESS, GITHUB_URL,LINKEDIN_URL, INSTAGRAM_URL} from "../App";
+import '../components/css/Contact.css';
+
 
 
 export default function Contact() {

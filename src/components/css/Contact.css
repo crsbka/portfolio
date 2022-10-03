@@ -1,0 +1,48 @@
+
+.contact {
+    background: rgba(23, 26, 23, 0.93);
+    padding: 300px 0 300px 0;
+}
+
+.contact button {
+    font-weight: 700;
+    color: #ffffff;
+    border: 1px solid #fff;
+    background-color: #fff0;
+    padding: 14px 48px;
+    font-size: 22px;
+    margin-top: 25px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border-radius: 100px;
+}
+
+.contact button::before {
+    content: "";
+    background: #ffffff;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+    border-radius: 100px;
+}
+
+.contact button:hover {
+    color: #111511;
+    background-color: rgba(255, 255, 255, 0.84);
+}
+
+.contact button:hover::before {
+    width: 100%;
+}
+
+
+/*** contact social icon**/
+.contact .social-icon {
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 20px;
+}
