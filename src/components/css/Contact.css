@@ -46,3 +46,14 @@
     margin-left: 14px;
     margin-top: 20px;
 }
+
+
+
+@media screen and (max-width:480px) {
+
+
+    .contact {
+        padding: 200px 0 200px 0;
+    }
+
+}

@@ -35,6 +35,11 @@ export default function NavBar() {
             <Container>
                 <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
 
+                <Navbar.Toggle aria-controls="basic-navbar-nav">
+                    <span className="navbar-toggler-icon"></span>
+                </Navbar.Toggle>
+                <Navbar.Collapse id="basic-navbar-nav">
+
                 <Nav className="me-auto">
 
                     <Nav.Link href="#skills"
@@ -68,7 +73,7 @@ export default function NavBar() {
                                       <button
                                               onClick={() => window.location = 'mailto:' + EMAIL_ADDRESS}>Email Me</button>
                                       </span>
-
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );

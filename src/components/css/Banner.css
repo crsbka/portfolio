@@ -20,7 +20,7 @@
 }
 
 .banner-text h1 {
-    font-size: 50px;
+    font-size: 62px;
 }
 
 .banner-text h1:hover {
@@ -45,4 +45,38 @@
 
 .banner-avatar:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width:480px) {
+    .banner{
+        flex-direction: column;
+        max-width: 350px;
+        margin: 76px 50px 0 0;
+        font-size: 10px;
+        text-align: justify;
+        padding: 70px 34px 0 34px;
+
+    }
+
+    .banner-text p {
+        font-size: 16px;
+        margin: 30px 0 20px 0;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .position {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .banner-avatar {
+        border: 3px solid rgba(75, 77, 89, 0.66);
+        width: 220px;
+        height: 220px;
+        margin: 70px 18px 0 18px;
+
+    }
 }
